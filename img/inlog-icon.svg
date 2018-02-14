@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="38px" viewBox="0 0 62 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone-1" transform="translate(-275.000000, -1252.000000)" fill="#00D66C">
+            <g id="Group-4" transform="translate(275.000000, 1252.000000)">
+                <g id="inlog-icon" transform="translate(22.000000, 0.000000)">
+                    <path d="M9.33333333,9.72282986 C11.907,9.72282986 14,7.54262153 14,4.86171875 C14,2.18081597 11.907,0.000607638889 9.33333333,0.000607638889 C6.75966667,0.000607638889 4.66666667,2.18081597 4.66666667,4.86171875 C4.66666667,7.54262153 6.75966667,9.72282986 9.33333333,9.72282986" id="Fill-87"></path>
+                    <path d="M9.33333333,10.9381076 C3.83833333,10.9381076 0,13.9361979 0,18.2297743 L0,19.4450521 L18.6666667,19.4450521 L18.6666667,18.2297743 C18.6666667,13.9361979 14.8283333,10.9381076 9.33333333,10.9381076" id="Fill-88"></path>
+                </g>
+                <text id="mijn-profiel" font-family="NexaBold, Nexa Bold" font-size="12" font-weight="bold">
+                    <tspan x="0" y="34">mijn profiel</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

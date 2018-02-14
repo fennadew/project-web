@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Overzichtspagina Stijlverhalen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- NAVIGATION  -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><img src="img/transavia-logosmall.png" alt="logo"></a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <p>0</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="loginofaanmelden.html"></a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- TITEL & ONDERSCHRIFT -->
+        <h1>Verhalen voor op reis</h1>
+        <h2>99 manieren om een verhaal te vertellen geschreven door Molovich</h2>
+        <!-- ZOEKBALK -->
+        <form>
+            <label for="myInput"></label>
+            <input type="text" id="myInput" placeholder="Zoeken...">
+        </form>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+        <section>
+            <h2>Ontdek</h2>
+            <h3>99 stijlverhalen</h3>
+        </section>
+        <!-- FILTER -->
+        <input type="checkbox" id="btn">
+        <label for="btn">Filteren/Sorteren</label>
+        <div id="content">
+            <form>
+                <fieldset>
+                    <legend></legend>
+                    <select name="type" id="categorie">
+                        <option value="categorie">Categorie</option>
+                        <option value="horror">Horror</option>
+                        <option value="humor">Humor</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="romantisch">Romantisch</option>
+                        <option value="verdrietig">Verdrietig</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend></legend>
+                    <select name="type" id="nummer">
+                        <option value="duur">Duur</option>
+                        <option value="5">Onder 5 min</option>
+                        <option value="10-15">10 min - 15 min</option>
+                        <option value="15+">Meer dan 15 min</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend></legend>
+                    <select name="type" id="datum">
+                        <option value="datum">Datum</option>
+                        <option value="reacties">Oudste</option>
+                        <option value="oudste">Nieuwste</option>
+
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend></legend>
+                    <select name="type" id="reacties">
+                        <option value="reacties">Reacties</option>
+                        <option value="0-2">0-2 reacties</option>
+                        <option value="2-4">2-4 reacties</option>
+                        <option value="4+">4+ reacties</option>
+                    </select>
+                </fieldset>
+            </form>
+            <!-- SORTEREN -->
+            <form>
+                <fieldset>
+                    <legend>Sorteren op</legend>
+                    <select name="type" id="sorteren">
+                        <option value="nieuwste">Nieuwste</option>
+                        <option value="reacties">Meeste reacties</option>
+                        <option value="oudste">Oudste</option>
+                        <option value="populair">Populair</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- VERHALEN -->
+        <section>
+            <h2>Artikelen</h2>
+            <article id="stoned">
+                <header>
+                    <h4>73</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-05-24">24 mei 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="stonedheader"></h3>
+                <p>Zodra ik de bus uitstap steek ik een dikke vette joint op. De derde van de dag al. Ik neem een lange haal, inhaleer diep, houd de rook een tijdje binnen en blaas dan, de lippen gerond, het hoofd een beetje in de nek, een enorme stoomkegel de atmosfeer in.</p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup1"></a>
+                    <a href="stoned.html">Lees verder</a></footer>
+            </article>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Stoned preview</h2>
+                    <a class="close" href="#stoned">&times;</a>
+
+                </div>
+            </div>
+
+            <article id="voetbalanalisten">
+                <header>
+                    <h4>62</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-04-29">29 april 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="voetbalanalistenheader"></h3>
+                <p>Jack van Gelder: Jongens, we hebben net gekeken naar Max Molovich die, samen met zijn slapende zoon op zoek ging naar Stijloefeningen van Queneau. Wat vonden we ervan? Hugo Borst: Tja. Wat zal ik zeggen? Ik heb het gevoel dat ik het allemaal al had gezien. </p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup3"></a>
+                    <a href="voetbalanalisten.html">Lees verder</a></footer>
+            </article>
+            <div id="popup3" class="overlay">
+                <div class="popup popup3">
+                    <h2>Voetbalanalisten preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+
+                </div>
+            </div>
+
+            <article id="kater">
+                <header>
+                    <h4>31</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-03-16">16 maart 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="katerheader"></h3>
+                <p>Ik had vandaag bus 21 willen nemen naar het Centraal Station om naar de Openbare Bibliotheek te gaan en Stijloefeningen van Raymond Queneau te lenen, een boekwerk waar ik al weken naar op zoek ben. </p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup2"></a>
+
+                    <a href="kater.html">Lees verder</a></footer>
+            </article>
+            <div id="popup2" class="overlay">
+                <div class="popup popup2">
+                    <h2>Kater preview</h2>
+                    <a class="close" href="#kater">&times;</a>
+
+                </div>
+            </div>
+
+            <article>
+                <header>
+                    <h4>96</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-07-04">4 juli 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="ab">Steenkolenfrans</h3>
+                <p>Le premier fevrièr 2011. Presque midi. Le bus s’arrête. Ligne 21. Place de Gare Centrale. Je marche au derrière d’un poussette. Mon fils dort. Je suis en route au Bibliothèque Public pour emprunteur Exercices de Style de Raymond Queneau. C’est un livre très dificile d’acquérir.</p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup4"></a>
+                    <a href="#">Lees verder</a></footer>
+            </article>
+            <div id="popup4" class="overlay">
+                <div class="popup popup4">
+                    <h2>preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+
+                </div>
+            </div>
+
+            <article>
+                <header>
+                    <h4>95</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-07-01">1 juli 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="b">Martin Bril</h3>
+                <p>Centraal Station. Iedereen gaat er naartoe, niemand moet er zijn. Behalve om verder te reizen. Ik stap uit de bus, lijn 21. Van Geuzenveld naar Centraal Station. Mijn zoon slaapt in zijn kinderwagen. Eindelijk. Het is druk op het plein, en toch heerst er een rust. De mensen zijn met zichzelf bezig. </p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup5"></a>
+                    <a href="#">Lees verder</a></footer>
+            </article>
+            <div id="popup5" class="overlay">
+                <div class="popup popup4">
+                    <h2>preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+                </div>
+            </div>
+            <article>
+                <header>
+                    <h4>94</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-06-29">29 juni 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="c">Het gebrek</h3>
+
+                <p>De bus uit. Mijn zoon tukt in zijn kinderkoets. Eindelijk. Ik loop over het plein. Een gierende wind en een striemende miezerregen geselen mijn gezicht. De mensen kijken voor zich uit, ieder voor zich. </p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup6"></a>
+                    <a href="#">Lees verder</a></footer>
+            </article>
+            <div id="popup6" class="overlay">
+                <div class="popup popup4">
+                    <h2>preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+
+                </div>
+            </div>
+
+            <article>
+                <header>
+                    <h4>93</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-06-28">28 juni 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="d">Nico Dijkshoorn</h3>
+
+                <p>Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij onderstaande niet heeft geschreven. Ik stap uit een, ja wat is het eigenlijk?, een bus. Lijn 21? Zou zomaar kunnen. Twaalf uur. In de middag. </p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup9"></a>
+                    <a href="#">Lees verder</a></footer>
+            </article>
+            <div id="popup9" class="overlay">
+                <div class="popup popup4">
+                    <h2>preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+
+                </div>
+            </div>
+            <article>
+                <header>
+                    <h4>92</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-06-27">27 juni 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="e">Vergezocht</h3>
+                <p>Het was in de omstreken van een gure februaridag rond het middaguur. Mijn zoon lag in zijn kinderwagen te slapen als een oude jamaicaan die teveel Rum achter de ontbrekende kiezen heeft. Ik stapte het gemeenteblik uit met de stramheid van een bejaarde ooievaar. </p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup7"></a>
+                    <a href="#">Lees verder</a></footer>
+            </article>
+            <div id="popup7" class="overlay">
+                <div class="popup popup4">
+                    <h2>preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+
+                </div>
+            </div>
+            <article>
+                <header>
+                    <h4>91</h4>
+                    <div></div>
+                    <div></div>
+                    <time datetime="2011-06-24">24 juni 2011</time>
+                    <div></div>
+                    <p>30 min</p>
+                </header>
+                <h3 class="f">Zoon</h3>
+                <p>Vroem. Tuut tuut. Whèèèh!! Die! Die! Whèèèh! Die! Die! Hjumhjumhjum. Zzzzzzzzzz.* Zzzzzzz.** Zzzzzzz. Hjumhjumhjum. Zzzzzzz. Grumbl. Huh? Whèèèh. Die! Die! Papa? Hjmwhumwhum. Boe?Boe? Hjmwhumwhum. Whèèèh!!! Die!*** Zjjoemmm. Vroem. Tuut tuut.</p>
+                <footer>
+                    <button><img src="img/hartjeroze.png" alt="hartje"></button>
+                    <a class="button" href="#popup8"></a>
+                    <a href="#">Lees verder</a></footer>
+            </article>
+            <div id="popup8" class="overlay">
+                <div class="popup popup4">
+                    <h2>Voetbalanalisten preview</h2>
+                    <a class="close" href="#voetbalanalisten">&times;</a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <img src="img/transavia-logo.png" alt="Logo transavia">
+    </footer>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
